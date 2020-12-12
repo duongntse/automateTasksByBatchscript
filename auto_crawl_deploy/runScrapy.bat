@@ -8,8 +8,9 @@
 set bats="C:\Users\DuongNTSE\Desktop\Projects\batchscripts\auto_crawl_deploy\"
 call cd /d %bats%
 call start_python_crawling.bat
-call copyItemsToReactComicPublic.bat
+@REM call copyItemsToReactComicPublic.bat
+call copyItemsToReactComicPublicGhpage.bat
 @REM call buildReactComics.bat
 @REM call copyCNAMEtoReactComic.bat
 @REM call deployReactComics.bat
-pause
+call pushComicItemsToGithubGhpage.bat
