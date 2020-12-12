@@ -1,0 +1,5 @@
+call set react_comics="/mnt/c/users/duongntse/desktop/vscode_projects/react-comics"
+call bash -c "cd %react_comics% && npm run deploy"
+@REM set react_comics_cmd="C:\users\duongntse\desktop\vscode_projects\react-comics"
+@REM call Pushd "%react_comics_cmd%"
+@REM call bash -c "npm run deploy"

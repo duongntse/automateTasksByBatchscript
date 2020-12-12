@@ -1,0 +1,1 @@
+bash -c "cd /mnt/c/Users/DuongNTSE/Desktop/vscode_projects/book-fullstack-react/exercise-files/routing/music && npm start"
