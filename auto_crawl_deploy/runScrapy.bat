@@ -14,4 +14,3 @@ call copyItemsToReactComicPublicGhpage.bat
 @REM call copyCNAMEtoReactComic.bat
 @REM call deployReactComics.bat
 call pushComicItemsToGithubGhpage.bat
-pause
